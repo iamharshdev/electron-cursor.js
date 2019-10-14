@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Cursor by Electron Labs</title>
+    
+    <!-- css not for you -->
+    <style>
+          .name{
+            font-family:'Poppins',sans-serif;
+            font-weight:500;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            letter-spacing:.5rem;
+            font-size:21px;
+          }
+    </style>
+
+    <!-- for you -->
+    <link rel="stylesheet" href="https://codepen.io/harsh-vardhan/pen/yWzQBq.css">
+
+    <!-- not for you -->
+     <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    <!-- not for you -->
+
+</head>
+<body>
+         <div class="name">Made by iamharsh.dev</div>
+        
+    <!-- for you -->
+        <div class="cursor-dot-outline"></div>
+        <div class="cursor-dot"></div>
+    <!-- for you -->
+        
+        <!-- for you -->
+        <script src="https://codepen.io/harsh-vardhan/pen/yWzQBq.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- for you -->
+        
+        <!-- not for you -->
+        <script>
+            const iamharsh =  baffle(".name");
+            iamharsh.set({
+                characters: '░▒░ ░██░> ████▓ >█> ░/█>█ ██░░ █<▒ ▓██░ ░/░▒',
+                speed: 100
+             });
+            
+             iamharsh.start();
+             iamharsh.reveal(5000);
+        </script>
+</body>
+</html>
