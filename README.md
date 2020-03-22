@@ -13,7 +13,7 @@ Those who don't know what custom cursor stands for so here is a preview for you.
 ```
 <head>
 
-<link rel="stylesheet" href="https://codepen.io/harsh-vardhan/pen/yWzQBq.css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/theuitown/electron-cursor.js/master/cursor.css">
 
 </head>
 <body>
