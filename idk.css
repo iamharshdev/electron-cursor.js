@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+    * {
+      margin: 0;
+      font-family: "Work Sans", sans-serif;
+      border: 0;
+      padding: 0;
+    }
+    .appointment{margin:0 auto;
+        max-width:600px;}
+    
+    .row,
+    .col {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    
+    .items-start {
+      align-items: flex-start;
+    }
+    
+    .col {
+      flex-direction: column;
+    }
+    
+    /* utility */
+    .col-md-12 {
+      width: 100%;
+      flex: 0 0 100%;
+    }
+    
+    .row {
+      flex-direction: row;
+    }
+    
+    .col-md-5 {
+      width: 45%;
+      flex: 0 0 45%;
+    }
+    
+    .bg-white {
+      background: #fff;
+    }
+    /* typo */
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 30px;
+      color: #ffffff;
+    }
+    
+    .main_header {
+      height: 150px;
+      width: 100%;
+      margin: 28px 0px;
+      margin-bottom:28px;
+      background: url("http://cdn.mcauto-images-production.sendgrid.net/d96e1cd8b122b4f6/c3bf1363-3e68-43bf-8431-1bf0057ac23c/1200x332.png");
+      background-origin: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .nbllogo {
+      max-width:80%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 1rem;
+    }
+    
+    .appointment_card {
+      background: #ffffff;
+      border:1px solid lightgrey;
+      border-radius: 4px;
+      padding: 32px;
+      margin: 32px 0px;
+    }
+    
+    .ml-3 {
+      margin-left: 14px;
+    }
+    
+    .mb-4 {
+      margin-bottom: 24px;
+    }
+    
+    .mt-4 {
+      margin-top: 24px;
+    }
+    
+    .p-5 {
+      padding: 20px;
+    }
+    
+    .mb-12 {
+      margin-bottom: 40px;
+    }
+    
+    .footer {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .wid100 {
+      width: 100%;
+    }
+    
+    .justify-between {
+      justify-content: space-between;
+    }
+    
+    .center {
+      margin: 0 auto;
+    }
+    
+    .center-text {
+      text-align: center;
+    }
+    
+    .calender_btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 8px 16px;
+      background: #9bd75f;
+      border-radius: 4px;
+    }
+    
+    .nblgreen {
+      color: #9bd75f;
+    }
+    ul li {
+      list-style-type: none;
+      font-size: 16px;
+      padding:0 24px;
+    }
+    li:first-child{
+        border-right:0.5px solid #9bd75f;
+    }
+    li:nth-of-type(odd){
+        border-right:0.5px solid #9bd75f;
+        }
+            li:nth-of-type(2){
+        border-right:0.5px solid #9bd75f;
+        }
+    a {
+      color: #9bd75f;
+      text-decoration: none;
+    }
+    a:hover,
+    a:focus {
+      color: #9bd75f;
+      text-decoration: none;
+    }
+    .wid80 {
+      width: 80%;
+    }
